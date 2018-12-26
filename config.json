@@ -1,0 +1,17 @@
+{
+  "host":                     "solrcloud-b6e265c9af0148e8.elb.ap-northeast-1.amazonaws.com",
+  "port":                     80,
+  "collection":               "JapanDocs",
+  "requestHandler":           "query",
+  "q":                        "*:*",
+  "userQueriesFile":          "user_queries.txt",
+  "efiParams":                "efi.user_query='$USERQUERY'",
+  "trainingLibraryLocation":   "C:/Codes/PythonCode/TestSolrLTR/venv/Scripts/train.exe",
+  "trainingLibraryOptions":   "C:/Codes/PythonCode/TestSolrLTR/venv/lib/site-packages/liblinear/liblinear.py",
+  "trainingFile":             "exampleTrainingFile.txt",
+  "trainedModelFile":         "exampleTrainedModel.txt",
+  "solrFeatureStoreName":     "JapanDocFeatureStoreBody",
+  "solrFeaturesFile":         "exampleFeatures.json",
+  "solrModelFile":            "exampleModel.json",
+  "solrModelName":            "JapanDocModelBody"
+}
